@@ -1,0 +1,59 @@
+* {
+  background-color: rgba(24, 24, 26, 1);
+}
+
+.Heading {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  font-size: 2.5rem;
+  left: 43%;
+  top: 8%;
+}
+
+.instructions-box {
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  max-width: 400px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.game-area {
+  position: relative;
+  background: black;
+  border: 2px solid white;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  margin-top: 100px;
+}
+
+.paddle {
+  position: absolute;
+  background: white;
+}
+
+.left-paddle {
+  left: 0;
+}
+
+.right-paddle {
+  right: 0;
+}
+
+.ball {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+}
+
+.scoreboard {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
